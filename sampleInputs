@@ -1,0 +1,9 @@
+to run resource: ./resource > output
+
+to run the processes: 
+
+./process 1 5 0 0 1 0 0 1 > 1_1 2> 1_2
+./process 2 5 1 0 0 1 0 0 > 2_1 2> 2_2
+./process 3 5 0 1 0 0 1 0 > 3_1 2> 3_2
+./process 4 5 0 0 0 0 0 0 > 4_1 2> 4_2
+./process 5 5 0 0 0 0 0 0 > 5_1 2> 5_2
